@@ -1,0 +1,25 @@
+/* desktop */
+@media(min-width: 1024px){
+    .container > .row > div{
+        width: 30%;
+    }
+}
+
+/* Tablets */
+@media(min-width: 768px) and (max-width: 1024px){
+    .container > .row > div{
+        width: 45%;
+    }
+}
+
+
+/* mobile phone */
+@media(max-width: 767px){
+    nav.navbar.navbar-expand-lg{
+        padding-bottom: 0px;
+    }
+    .container > .row > div{
+        width: 80%;
+    }
+
+}
